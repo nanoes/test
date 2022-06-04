@@ -12,3 +12,27 @@ React: Crear un proyecto simple que muestre
 - Dar incapié en el diseño, podés utilizar Material UI.
 
 1) Comandos para crear el sistema de usuarios de laravel.
+
+
+
+Research -> 
+ Laravel automáticamente te crea la migration de usuario 
+ M V C 
+
+ ----
+2)
+ RDBMS <Eloquent ORM -> countries()->WhitRole()>
+
+ <script type="text/SQL">
+ Create Database relation whit 2 tables 
+        UML -> 
+        pais | user
+            paises_user
+        Migration and seeder.
+
+ INSERT INTO laratest WHERE   
+
+ and then build an api for get data and show in json textarea
+.then (Export as a json file ? t : f );
+
+ </script>
