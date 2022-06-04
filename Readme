@@ -1,0 +1,14 @@
+Laravel: Crear un proyecto basado en API el cual haga lo siguiente.
+
+- Laravel automáticamente te crea la migration de usuario, la cual podes utilizar, como también el handle de auth, instalando la ui de auth que brinda laravel.
+- Además de la migración de usuario se va a necesitar crear una tabla para país, y también poder asignar al usuario ese país, tendrás que modificar la migration de user que da laravel.
+- Crear un endpoint el cual devuelva un json con los usuarios cargados en la base de datos. 
+- Crear 2 seeder, uno para que cargue en la tabla de países el valor “Argentina” y otro para que cargue 3 usuarios, todos asociados al país “Argentina”.
+
+React: Crear un proyecto simple que muestre
+
+- Un formulario de contacto, el cual tiene que tener los siguiente campos: Nombre, Apellido, email. El formulario tiene que tener un botón que te lleve a una página de confirmación-.
+- Una página de confirmación diciendo que el formulario se procesó correctamente y que nos estaremos contactando.
+- Dar incapié en el diseño, podés utilizar Material UI.
+
+1) Comandos para crear el sistema de usuarios de laravel.
