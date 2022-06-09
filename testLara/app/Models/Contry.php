@@ -7,5 +7,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Contry extends Model
 {
+
+    // esto tiene que estar en el modelo 
+
+    //relation whit country model  
+    public function users()
+    {
+        return $this->hasMany('User');
+    }
+
+
     use HasFactory;
 }
