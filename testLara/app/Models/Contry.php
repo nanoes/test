@@ -6,7 +6,10 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Contry extends Model
-{
+{   
+    
+
+    use HasFactory;
 
     // esto tiene que estar en el modelo 
 
@@ -16,6 +19,4 @@ class Contry extends Model
         return $this->hasMany('User');
     }
 
-
-    use HasFactory;
 }
