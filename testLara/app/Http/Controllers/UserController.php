@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use  App\Models\User ;
 
 class UserController extends Controller
 {
@@ -13,7 +14,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        $users = User::all()->toJson();
+        return $users ;
     }
 
     /**
@@ -23,7 +25,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        //add user whit field country_id
     }
 
     /**
